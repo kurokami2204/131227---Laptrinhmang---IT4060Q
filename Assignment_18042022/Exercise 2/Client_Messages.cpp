@@ -37,13 +37,13 @@ int main()
 
     while (action == 1)
     {
-        printf("Nhap noi dung tin nhan gui den server\n");
+        printf("Input messages to the server\n");
 
         string input;
 
         getline(cin, input);
 
-        string message = "Information by client: " + input;
+        string message = "Messages from clint: " + input;
 
         const char* output = message.c_str();
 
